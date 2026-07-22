@@ -46,8 +46,8 @@ const certificatesData = [
 
 const projectsData = [
   {
-    title: "Proyecto de Ejemplo 1",
-    description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
+    title: "Proyecto Hospicalfa Medical",
+    description: "Plataforma web full-stack para Hospicalfa Medical, distribuidora de insumos médicos. Incluye tienda pública con catálogo de productos, carrito, checkout, sistema de cotizaciones e integración con WhatsApp, además de un panel administrativo protegido para gestión de pedidos, clientes, inventario, finanzas y usuarios. Desarrollada con Next.js 15, React 19 y TypeScript.",
     image: "assets/projects/project-1.svg",
     pdf: "",
     tags: ["React", "Node.js", "MongoDB"],
@@ -55,8 +55,8 @@ const projectsData = [
     repo: "#",
   },
   {
-    title: "Proyecto de Ejemplo 2",
-    description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
+    title: "Proyecto Psicologia",
+    description: "Website sobre un blog, proyecto de ejemplo para demostrar habilidades",
     image: "assets/projects/project-2.svg",
     pdf: "",
     tags: ["JavaScript", "API REST"],
@@ -64,8 +64,8 @@ const projectsData = [
     repo: "#",
   },
   {
-    title: "Proyecto de Ejemplo 3",
-    description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
+    title: "Proyecto NexusFlow",
+    description: "exusFlow es una plataforma web tipo SaaS para agencias y equipos que gestionan proyectos de clientes. Desarrollé el sistema completo: frontend, backend y base de datos. Incluye: • Autenticación segura (registro, login, recuperación de contraseña) con JWT y tokens de refresco • Dashboard ejecutivo con KPIs, gráficos de ingresos y distribución por estado • CRUD completo de proyectos: crear, editar, eliminar, buscar y filtrar por estado/prioridad • Panel administrativo responsive con modo claro/oscuro y animaciones • API REST en Node.js + Express con validaciones y manejo de errores • Base de datos MongoDB con datos de demostración Stack: React, Vite, Tailwind CSS, Framer Motion, Node.js, Express, MongoDB. Proyecto pensado con arquitectura escalable y código mantenible, listo para personalizar con la marca del cliente (colores, módulos, reportes, integraciones).",
     image: "assets/projects/project-3.svg",
     pdf: "",
     tags: ["Python", "Automatización"],
