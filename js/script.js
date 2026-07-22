@@ -267,7 +267,7 @@ function setupContactForm() {
 
     const subject = encodeURIComponent(`Contacto desde portafolio - ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:tu.email@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:rosariosr974@icloud.com?subject=${subject}&body=${body}`;
   });
 }
 
