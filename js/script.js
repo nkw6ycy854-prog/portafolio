@@ -37,7 +37,7 @@ const certificatesData = [
   },
   {
     title: "Certificado Diseño Gráfico",
-    issuer: "Cursa / Cursa",
+    issuer: "Cursa / ",
     date: "2025",
     image: "assets/certificates/cert3.jpeg",
     pdf: "",
