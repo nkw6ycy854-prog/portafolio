@@ -46,29 +46,31 @@ const certificatesData = [
 
 const projectsData = [
   {
-    title: "Proyecto Hospicalfa Medical",
+    title: "Proyecto de Ejemplo 1",
     description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
     image: "assets/projects/project-1.svg",
     pdf: "",
     tags: ["React", "Node.js", "MongoDB"],
-   
+    demo: "#",
+    repo: "#",
   },
   {
-    title: "Proyecto Psicologia",
-    description: "NexusFlow es una plataforma web tipo SaaS para agencias y equipos que gestionan proyectos de clientes. Desarrollé el sistema completo: frontend, backend y base de datos. Incluye: • Autenticación segura (registro, login, recuperación de contraseña) con JWT y tokens de refresco • Dashboard ejecutivo con KPIs, gráficos de ingresos y distribución por estado • CRUD completo de proyectos: crear, editar, eliminar, buscar y filtrar por estado/prioridad • Panel administrativo responsive con modo claro/oscuro y animaciones • API REST en Node.js + Express con validaciones y manejo de errores • Base de datos MongoDB con datos de demostración Stack: React, Vite, Tailwind CSS, Framer Motion, Node.js, Express, MongoDB. Proyecto pensado con arquitecturaescalable y código mantenible, listo para personalizar con la marca del cliente (colores, módulos, reportes, integraciones).
-
-",
+    title: "Proyecto de Ejemplo 2",
+    description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
     image: "assets/projects/project-2.svg",
     pdf: "",
     tags: ["JavaScript", "API REST"],
-  
+    demo: "#",
+    repo: "#",
   },
   {
-    title: "Proyecto NexusFlow",
-    description: "Website sobre un blog, proyecto de ejemplo para demostrar habilidades.",
+    title: "Proyecto de Ejemplo 3",
+    description: "Descripción corta explicando el problema que resuelve este proyecto y tu rol en él.",
     image: "assets/projects/project-3.svg",
     pdf: "",
-    
+    tags: ["Python", "Automatización"],
+    demo: "#",
+    repo: "#",
   },
 ];
 
@@ -158,7 +160,7 @@ function renderProjects() {
             ${
               project.repo
                 ? `<a class="card__link" href="${project.repo}" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" class="icon"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.19-1.11-1.51-1.11-1.51-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.32.1-2.75 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.43.2 2.49.1 2.75.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+                    <svg viewBox="0 0 24 24" class="icon"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.41-1.12-1.78-1.12-1.78-.91-.62.07-.62.07-.62 1.01.07 1.54 1.04 1.54 1.04.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.33.85 0 1.7.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .28.18.6.69.5C19.14 20.62 22 16.78 22 12.25 22 6.58 17.52 2 12 2z"/></svg>
                     Código
                   </a>`
                 : ""
