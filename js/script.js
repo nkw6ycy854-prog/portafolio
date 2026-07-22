@@ -22,23 +22,23 @@ const techData = [
 
 const certificatesData = [
   {
-    title: "Certificado de Ejemplo 1",
-    issuer: "Plataforma / Institución",
-    date: "2025",
-    image: "assets/certificates/cert1.jpeg",
+    title: "Certificado Desarrollo Web Full Stack",
+    issuer: "Campus Digital / INDOTEL",
+    date: "2026",
+    image: "assets/certificates/cert1.png",
     pdf: "",
   },
   {
-    title: "Certificado de Ejemplo 2",
-    issuer: "Plataforma / Institución",
-    date: "2025",
+    title: "Certificado Foundations of Cybersecurity",
+    issuer: "Coursera / Google",
+    date: "2026",
     image: "assets/certificates/cert2.jpeg",
     pdf: "",
   },
   {
-    title: "Certificado de Ejemplo 3",
-    issuer: "Plataforma / Institución",
-    date: "2024",
+    title: "Certificado Diseño Gráfico",
+    issuer: "Cursa / Cursa",
+    date: "2025",
     image: "assets/certificates/cert3.jpeg",
     pdf: "",
   },
